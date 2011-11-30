@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E101D1D147F933B008F28C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E101D1C147F933B008F28C3 /* Cocoa.framework */; };
+		0E101D27147F933B008F28C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E101D25147F933B008F28C3 /* InfoPlist.strings */; };
+		0E101D29147F933B008F28C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E101D28147F933B008F28C3 /* main.m */; };
+		0E101D2D147F933B008F28C3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0E101D2B147F933B008F28C3 /* Credits.rtf */; };
+		0E101D30147F933B008F28C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E101D2F147F933B008F28C3 /* AppDelegate.m */; };
+		0E101D33147F933B008F28C3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E101D31147F933B008F28C3 /* MainMenu.xib */; };
+		0EB820A2147FA71100B84561 /* MyQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB820A1147FA71100B84561 /* MyQuartzView.m */; };
+		0EB820A6147FA90D00B84561 /* WorldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB820A5147FA90D00B84561 /* WorldController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E101D18147F933B008F28C3 /* emulateworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emulateworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E101D1C147F933B008F28C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0E101D1F147F933B008F28C3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0E101D20147F933B008F28C3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0E101D21147F933B008F28C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E101D24147F933B008F28C3 /* emulateworld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "emulateworld-Info.plist"; sourceTree = "<group>"; };
+		0E101D26147F933B008F28C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E101D28147F933B008F28C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E101D2A147F933B008F28C3 /* emulateworld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "emulateworld-Prefix.pch"; sourceTree = "<group>"; };
+		0E101D2C147F933B008F28C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0E101D2E147F933B008F28C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E101D2F147F933B008F28C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E101D32147F933B008F28C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0EB820A0147FA71100B84561 /* MyQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQuartzView.h; sourceTree = "<group>"; };
+		0EB820A1147FA71100B84561 /* MyQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQuartzView.m; sourceTree = "<group>"; };
+		0EB820A4147FA90D00B84561 /* WorldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldController.h; sourceTree = "<group>"; };
+		0EB820A5147FA90D00B84561 /* WorldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E101D15147F933B008F28C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E101D1D147F933B008F28C3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E101D0D147F933B008F28C3 = {
+			isa = PBXGroup;
+			children = (
+				0E101D22147F933B008F28C3 /* emulateworld */,
+				0E101D1B147F933B008F28C3 /* Frameworks */,
+				0E101D19147F933B008F28C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E101D19147F933B008F28C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E101D18147F933B008F28C3 /* emulateworld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E101D1B147F933B008F28C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E101D1C147F933B008F28C3 /* Cocoa.framework */,
+				0E101D1E147F933B008F28C3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E101D1E147F933B008F28C3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E101D1F147F933B008F28C3 /* AppKit.framework */,
+				0E101D20147F933B008F28C3 /* CoreData.framework */,
+				0E101D21147F933B008F28C3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0E101D22147F933B008F28C3 /* emulateworld */ = {
+			isa = PBXGroup;
+			children = (
+				0E101D2E147F933B008F28C3 /* AppDelegate.h */,
+				0E101D2F147F933B008F28C3 /* AppDelegate.m */,
+				0E101D31147F933B008F28C3 /* MainMenu.xib */,
+				0EB820A0147FA71100B84561 /* MyQuartzView.h */,
+				0EB820A1147FA71100B84561 /* MyQuartzView.m */,
+				0EB820A4147FA90D00B84561 /* WorldController.h */,
+				0EB820A5147FA90D00B84561 /* WorldController.m */,
+				0E101D23147F933B008F28C3 /* Supporting Files */,
+			);
+			path = emulateworld;
+			sourceTree = "<group>";
+		};
+		0E101D23147F933B008F28C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E101D24147F933B008F28C3 /* emulateworld-Info.plist */,
+				0E101D25147F933B008F28C3 /* InfoPlist.strings */,
+				0E101D28147F933B008F28C3 /* main.m */,
+				0E101D2A147F933B008F28C3 /* emulateworld-Prefix.pch */,
+				0E101D2B147F933B008F28C3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E101D17147F933B008F28C3 /* emulateworld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E101D36147F933B008F28C3 /* Build configuration list for PBXNativeTarget "emulateworld" */;
+			buildPhases = (
+				0E101D14147F933B008F28C3 /* Sources */,
+				0E101D15147F933B008F28C3 /* Frameworks */,
+				0E101D16147F933B008F28C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = emulateworld;
+			productName = emulateworld;
+			productReference = 0E101D18147F933B008F28C3 /* emulateworld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E101D0F147F933B008F28C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Crosslife;
+			};
+			buildConfigurationList = 0E101D12147F933B008F28C3 /* Build configuration list for PBXProject "emulateworld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E101D0D147F933B008F28C3;
+			productRefGroup = 0E101D19147F933B008F28C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E101D17147F933B008F28C3 /* emulateworld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E101D16147F933B008F28C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E101D27147F933B008F28C3 /* InfoPlist.strings in Resources */,
+				0E101D2D147F933B008F28C3 /* Credits.rtf in Resources */,
+				0E101D33147F933B008F28C3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E101D14147F933B008F28C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E101D29147F933B008F28C3 /* main.m in Sources */,
+				0E101D30147F933B008F28C3 /* AppDelegate.m in Sources */,
+				0EB820A2147FA71100B84561 /* MyQuartzView.m in Sources */,
+				0EB820A6147FA90D00B84561 /* WorldController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E101D25147F933B008F28C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E101D26147F933B008F28C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0E101D2B147F933B008F28C3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E101D2C147F933B008F28C3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0E101D31147F933B008F28C3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E101D32147F933B008F28C3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E101D34147F933B008F28C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0E101D35147F933B008F28C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0E101D37147F933B008F28C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "emulateworld/emulateworld-Prefix.pch";
+				INFOPLIST_FILE = "emulateworld/emulateworld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E101D38147F933B008F28C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "emulateworld/emulateworld-Prefix.pch";
+				INFOPLIST_FILE = "emulateworld/emulateworld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E101D12147F933B008F28C3 /* Build configuration list for PBXProject "emulateworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E101D34147F933B008F28C3 /* Debug */,
+				0E101D35147F933B008F28C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E101D36147F933B008F28C3 /* Build configuration list for PBXNativeTarget "emulateworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E101D37147F933B008F28C3 /* Debug */,
+				0E101D38147F933B008F28C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E101D0F147F933B008F28C3 /* Project object */;
+}
